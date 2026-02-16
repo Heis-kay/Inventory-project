@@ -1,0 +1,59 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    /* background: url('images/Instagram.jpg') center/cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+}
+header {
+    background: #333;
+    color: white;
+    padding: 15px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+ .logo{
+    width: 50px;
+}
+
+.logo img{
+    width: 100%;
+    border-radius: 50%;
+}
+header h1 {
+    margin: 0;
+}
+
+nav{
+    margin-left: 280px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+nav a:hover {
+    color: #00aced;
+}
+.hero {
+    background: #87CEEB; /* sea blue hero section */
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+
+}

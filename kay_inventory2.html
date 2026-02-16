@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Inventory Management - Inventory page</title>
+  <link rel="stylesheet" href="styles.css" type="text/css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #87CEEB; 
+    }
+    
+    table {
+      margin: 20px 0;
+      border-collapse: collapse;
+      width: 80%;
+    }
+    th, td {
+      padding: 10px;
+      text-align: center;
+    }
+    .box-image {
+      border: 2px solid #333;
+      padding: 10px;
+      margin: 10px;
+      position: relative;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="">
+    </div>
+    <h1>Mama's Fashion Store</h1>
+    <nav>
+      <a href="kay_inventory.html">Home</a>
+      <a href="kay_inventory2.html">Inventory</a>
+      <a href="kay_inventory3.html">Add Item</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <!-- Invisible Border Table (Layout) -->
+  
+     <!-- TABLE 1: CLOTHES (VISIBLE BORDERS) -->
+    <h2>Clothing Inventory</h2>
+    <table class="visible-table" border="1">
+        <tr>
+            <th>Item ID</th>
+            <th>Item Name</th>
+            <th>Size</th>
+            <th>Color</th>
+            <th>Quantity</th>
+            <th>Price ($)</th>
+        </tr>
+
+        <tr>
+            <td>C001</td>
+            <td>T-Shirt</td>
+            <td>M</td>
+            <td>Black</td>
+            <td>25</td>
+            <td>$65.64</td>
+        </tr>
+
+        <tr>
+            <td>C002</td>
+            <td>Jeans</td>
+            <td>L</td>
+            <td>Blue</td>
+            <td>15</td>
+            <td>$50.05</td>
+        </tr>
+
+        <tr>
+            <td>C003</td>
+            <td>Dress</td>
+            <td>S</td>
+            <td>Red</td>
+            <td>10</td>
+            <td>$62.84</td>
+        </tr>
+
+         <tr>
+            <td>C004</td>
+            <td>Balenciaga</td>
+            <td>40 - 44</td>
+            <td>Blue & white</td>
+            <td>15</td>
+            <td>$50.99</td>
+        </tr>
+
+         <tr>
+            <td>C005</td>
+            <td>Airforce 1 Biglace</td>
+            <td>39 - 42</td>
+            <td>white</td>
+            <td>18</td>
+            <td>$50.99</td>
+        </tr>
+
+         <tr>
+            <td>C006</td>
+            <td>Suite</td>
+            <td>M</td>
+            <td>Blueblack</td>
+            <td>6</td>
+            <td>$86.74</td>
+        </tr>
+
+         <tr>
+            <td>C007</td>
+            <td>Bracelet</td>
+            <td>S</td>
+            <td>Gold & Silver</td>
+            <td>100</td>
+            <td>$20.84</td>
+        </tr>
+    </table>
+
+
+   <!-- TABLE 2: SHOES & BRACELETS (INVISIBLE BORDERS – LAYOUT) -->
+    <h2>Shoes & Bracelets Inventory</h2>
+    <table class="invisible-table">
+        <tr>
+            <td>
+                <strong>Shoes</strong><br>
+                Sneakers (Size 42) – 20 pcs<br>
+                Heels (Size 38) – 12 pcs<br>
+                Sandals (Size 40) – 18 pcs
+            </td>
+
+            <td>
+                <strong>Bracelets</strong><br>
+                Gold Bracelet – 50 pcs<br>
+                Silver Bracelet – 35 pcs<br>
+                Beaded Bracelet – 15 pcs
+            </td>
+        </tr>
+    </table>
+
+  <!-- Footer -->
+  <footer> 
+    <p>&copy;  2026 Mama's Fashion Store</p>
+  </footer>
+</body>
+</html>

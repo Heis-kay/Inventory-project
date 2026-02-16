@@ -1,0 +1,54 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 20px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Page heading */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Banner image at the top */
+.banner-img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Paragraphs */
+p {
+    max-width: 900px;
+    margin: 10px auto;
+    text-align: justify;
+}
+
+/* Image container */
+.about-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    max-width: 900px;
+    margin: 25px auto;
+}
+
+/* Individual about images */
+.about-img {
+    width: 30%;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    padding: 3px;
+}
+
+/* Rollover (hover) effect */
+.about-img:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease;
+    border-color: #000;
+}
